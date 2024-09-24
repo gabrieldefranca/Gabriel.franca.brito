@@ -3,7 +3,6 @@ const inputTarefa = document.getElementById('tarefa');
 const botaoAdicionarTarefa = document.getElementById('botaoAdicionarTarefa');
 const listaTarefas = document.getElementById('listaTarefas');
 
-// Função para adicionar uma tarefa
 function adicionarTarefa() {
     const textoTarefa = inputTarefa.value.trim();
 
